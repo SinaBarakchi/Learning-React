@@ -1,0 +1,9 @@
+.cardcontainer{
+    /* margin-top: 100px; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,255,255)
+}

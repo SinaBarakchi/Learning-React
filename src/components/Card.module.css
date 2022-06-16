@@ -1,0 +1,57 @@
+.Card{
+    height: 440px;
+    width: 300px;
+    margin: 30px 15px;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.Card:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+.imgcontainer{
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: -5px;
+}
+.cardinfo{
+    background-color: #ececec;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 5px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.cardinfo p{
+    background-color: rgb(10, 145, 46);
+    z-index: 200;
+    font-size: 14px;
+    margin-left: 10px;
+    width: fit-content;
+    padding:10px;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    top: -28px;
+    left: -25px;
+}
+.cardinfo h3{
+    color: rgb(54, 62, 66);
+    margin-left: 25px;
+    margin-top: 13px;
+    /* padding-bottom: 25px; */
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+img{
+    /* width: 150px;nom */
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    
+}
