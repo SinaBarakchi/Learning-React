@@ -22,26 +22,31 @@
     border-bottom-right-radius: 20px;
     position: relative;
     top: 5px;
-    padding-top: 15px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
 }
 .cardinfo p{
     background-color: rgb(10, 145, 46);
     z-index: 200;
     font-size: 14px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     width: fit-content;
     padding:10px;
     border-radius: 10px;
     float: right;
-    position: relative;
-    top: -28px;
-    left: -25px;
+    /* position: relative; */
+    /* top: -28px; */
+    /* left: -25px; */
+    
 }
 .cardinfo h3{
     color: rgb(54, 62, 66);
-    margin-left: 25px;
-    margin-top: 13px;
+    /* margin-left: 25px; */
+    /* margin-top: 13px; */
     /* padding-bottom: 25px; */
     font-weight: bold;
     font-size: 18px;
@@ -49,9 +54,74 @@
     
 }
 img{
-    /* width: 150px;nom */
+    max-width: 200px;
     height: 300px;
-    object-fit: cover;
+    /* object-fit: ; */
     object-position: center;
+    
+}
+
+
+@media(max-width:1200px){
+    .Card{
+        width: 250px;
+        height: 350px;
+    }
+    .imgcontainer{
+        padding: 25px;
+    }
+    .cardinfo{
+        top: -10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        column-gap: 50px;
+    }
+    img{
+        max-width: 200px;
+        height: 250px;
+        object-position: center;
+    }
+}
+@media(max-width:1000px){
+    .Card{
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:600px){
+    .Card{
+        width: 200px;
+        height: 300px;
+    }
+    .imgcontainer{
+        padding: 25px;
+    }
+    .cardinfo{
+        top: -6px;
+        /* padding-top: 10px; */
+        padding-bottom: 17px;
+        column-gap: 20px;
+
+    }
+    .cardinfo h3{
+        font-size: 15px;
+        /* margin-left: 0px; */
+        /* position: relative; */
+        /* top: -5px; */
+    }
+    .cardinfo p{
+        padding: 6px;
+        /* left: -18px; */
+    }
+    img{
+        max-width: 200px;
+        height: 200px;
+        object-position: center;
+    }
+}
+@media(max-width:500px){
+    
+}
+@media(max-width:400px){
     
 }

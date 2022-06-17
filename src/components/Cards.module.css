@@ -1,9 +1,17 @@
 .cardcontainer{
     /* margin-top: 100px; */
-    height: 80vh;
+    /* height: 700px; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255,255,255)
+    background-color: rgb(255,255,255);
+    padding: 35px 0;
+}
+@media(max-width:1000px){
+    .cardcontainer{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    
 }

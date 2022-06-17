@@ -24,3 +24,84 @@ color: #696969;
     color: #30c0e4;
     font-weight: bold;
 }
+
+
+@media (max-width:1200px){
+    .textcontainer h1{
+        font-size: 6rem;
+        }
+    .textcontainer p{
+        font-size: 3rem;
+        margin-top: 30px;
+        }
+}
+@media (max-width:1000px){
+    .banner{
+        padding: 300px;
+    }
+    .textcontainer h1{
+        font-size: 5rem;
+        }
+    .textcontainer p{
+        font-size: 2rem;
+        margin-top: 30px;
+        }
+}
+@media (max-width:800px){
+    .banner{
+        padding: 250px;
+    }
+    .textcontainer{
+        left: 70px;
+    }
+    .textcontainer h1{
+        font-size: 4rem;
+        }
+    .textcontainer p{
+        font-size: 1.9rem;
+        }
+}
+@media (max-width:680px){
+    .banner{
+        padding: 240px;
+    }
+    .textcontainer{
+        left: 60px;
+    }
+    .textcontainer h1{
+        font-size: 3rem;
+        }
+    .textcontainer p{
+        font-size: 1.5rem;
+        }
+}
+@media (max-width:580px){
+    .textcontainer h1{
+        font-size: 2.7rem;
+        }
+    .textcontainer p{
+        font-size: 1.2rem;
+        }
+}
+@media (max-width:480px){
+    .textcontainer{
+        left: 50px;
+    }
+    .textcontainer h1{
+        font-size: 2.2rem;
+        }
+    .textcontainer p{
+        font-size: 1.2rem;
+        }
+}
+@media (max-width:350px){
+    .textcontainer{
+        left: 40px;
+    }
+    .textcontainer h1{
+        font-size: 2rem;
+        }
+    .textcontainer p{
+        font-size: 1.1rem;
+        }
+}

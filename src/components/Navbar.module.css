@@ -11,8 +11,6 @@
 .listcontainer{
     /* display: flex; */
     justify-content: flex-end;
-
-
 }
 .list{
     list-style: none;
@@ -35,4 +33,37 @@
 }
 .logo{
     margin-left: auto;
+}
+
+
+
+
+
+
+@media (max-width:1000px){
+.header{
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+}
+@media (max-width:680px){
+    .list{
+        
+        margin-left: 10px;
+        margin-top: 21px;
+    }
+    .list li{  
+        margin-left: 25px;
+        font-size: smaller;
+    }
+}
+@media (max-width:400px){
+    .list{
+        
+        margin-left: 5px;
+    }
+    .list li{  
+        margin-left: 10px;
+        font-size: 14px;
+    }
 }

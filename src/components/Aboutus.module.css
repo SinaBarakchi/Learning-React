@@ -1,0 +1,23 @@
+.aboutus{
+    background-color: white;
+    text-align: center;
+}
+.aboutus h1{
+    font-size: 35px;
+    margin-top: 50px;
+    color: rgb(77, 77, 77)
+}
+.aboutus p{
+    background-color: rgb(158, 156, 156);
+    padding: 5px;
+}
+.supporters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:250px;
+    margin:250px;
+}
+.supporters i{
+    font-size: 30px;
+}

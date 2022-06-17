@@ -1,0 +1,40 @@
+.searchbar{
+    display: flex;
+    background-color: #30c0e4;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    border-radius: 10px;
+    padding: 15px 120px 15px 10px;
+    border: 0;
+}
+.searchcontent{
+    font-size: 60px;
+    color: white;
+}
+.inputcontainer{
+    
+    margin-left: 160px;
+}
+
+
+@media(max-width:1300px){
+    .searchcontent{
+        font-size: 50px;
+    }
+}
+@media(max-width:1200px){
+    .searchcontent{
+        font-size: 40px;
+    }
+}
+@media(max-width:1000px){
+    .searchbar{
+        padding: 60px;
+    }
+}
+@media(max-width:1200px){
+    
+}
