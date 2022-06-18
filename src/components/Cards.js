@@ -2,9 +2,9 @@ import React from "react";
 import Card from "./Card";
 import Nokia from '../images/Nokia.jpg';
 import Samsung from '../images/Samsung.jpg';
-import Xiaomi from '../images/Xiaomi.jpg'
-import Iphone from '../images/Iphone.jpg'
-import styles from './Cards.module.css'
+import Xiaomi from '../images/Xiaomi.jpg';
+import Iphone from '../images/Iphone.jpg';
+import styles from './Cards.module.css';
 const Cards = () =>{
 
     return(

@@ -53,7 +53,7 @@
     
     
 }
-img{
+.imgcontainer img{
     max-width: 200px;
     height: 300px;
     /* object-fit: ; */
@@ -76,7 +76,7 @@ img{
         padding-bottom: 15px;
         column-gap: 50px;
     }
-    img{
+    .imgcontainer img{
         max-width: 200px;
         height: 250px;
         object-position: center;
@@ -113,15 +113,15 @@ img{
         padding: 6px;
         /* left: -18px; */
     }
-    img{
+    .imgcontainer img{
         max-width: 200px;
         height: 200px;
         object-position: center;
     }
 }
-@media(max-width:500px){
+/* @media(max-width:500px){
     
 }
 @media(max-width:400px){
     
-}
+} */
