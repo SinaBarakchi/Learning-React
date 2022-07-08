@@ -1,13 +1,12 @@
 .Card{
-    height: 440px;
     width: 300px;
     margin: 30px 15px;
     box-shadow: 5px 5px 10px rgb(189, 189, 189);
     border-radius: 20px;
     overflow: hidden;
+    background-color: #ececec;
 }
 .Card:hover{
-    transform: translateY(-15px);
     cursor: pointer;
 }
 .imgcontainer{
@@ -17,9 +16,6 @@
     margin-bottom: -5px;
 }
 .cardinfo{
-    background-color: #ececec;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     position: relative;
     top: 5px;
     padding-top: 20px;
@@ -33,33 +29,52 @@
     background-color: rgb(10, 145, 46);
     z-index: 200;
     font-size: 14px;
-    /* margin-left: 10px; */
     width: fit-content;
     padding:10px;
     border-radius: 10px;
     float: right;
-    /* position: relative; */
-    /* top: -28px; */
-    /* left: -25px; */
-    
 }
 .cardinfo h3{
     color: rgb(54, 62, 66);
-    /* margin-left: 25px; */
-    /* margin-top: 13px; */
-    /* padding-bottom: 25px; */
     font-weight: bold;
     font-size: 18px;
-    
-    
 }
 .imgcontainer img{
     max-width: 200px;
     height: 300px;
-    /* object-fit: ; */
     object-position: center;
     
 }
+.counter{
+    padding: 22px 0;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.uparrow{
+    color: green;
+    font-size: 25px;
+    cursor: pointer;
+}
+.downarrow{
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+}
+.deactive{
+    cursor: auto;
+    opacity: .2;
+    font-size: 25px;
+}
+.clickcounter{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin : 0 10px;
+    color: black;
+}
+
+
 
 
 @media(max-width:1200px){
@@ -98,20 +113,15 @@
     }
     .cardinfo{
         top: -6px;
-        /* padding-top: 10px; */
         padding-bottom: 17px;
         column-gap: 20px;
 
     }
     .cardinfo h3{
         font-size: 15px;
-        /* margin-left: 0px; */
-        /* position: relative; */
-        /* top: -5px; */
     }
     .cardinfo p{
         padding: 6px;
-        /* left: -18px; */
     }
     .imgcontainer img{
         max-width: 200px;
@@ -119,9 +129,3 @@
         object-position: center;
     }
 }
-/* @media(max-width:500px){
-    
-}
-@media(max-width:400px){
-    
-} */
