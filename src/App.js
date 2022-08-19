@@ -1,18 +1,24 @@
 import React from "react";
 import Navbar from "./components/Navbar.js"
-import Banner from "./components/Banner.js";
-import Cards from './components/Cards';
 import styles from  './index.css';
-import Searchbar from "./components/Searchbar.js";
+import Landing from './components/Landing.js';
+import {Route ,  Routes} from 'react-router-dom';
+import Products from "./components/Products.js";
 import Aboutus from "./components/Aboutus.js";
-function App(){
+
+function App(props){
+
+    
+    // console.log(props.history.state);
     return(
         <div className={styles.Conatainer}>
         <Navbar />
-        <Banner />
-        <Cards />
-        <Searchbar />
-        <Aboutus />
+        <Routes>
+            <Route path="/products" element = {<Products/>}/>
+            <Route path="/homepage" element ={<Landing/>}/>
+            <Route path="/aboutus" element ={<Aboutus/>}/>
+        </Routes>
+        
         </div>
     );
 }

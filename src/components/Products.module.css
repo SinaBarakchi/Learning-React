@@ -1,0 +1,12 @@
+.producttitle{
+    margin:50px 30px;
+}
+.cardcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    padding: 35px 0;
+    flex-wrap: wrap;
+}

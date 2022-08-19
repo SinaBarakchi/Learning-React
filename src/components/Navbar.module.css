@@ -3,7 +3,7 @@
     display: flex; 
     background-color: rgba(158, 158, 158,.6);
     padding: 5px 0 15px 0;
-    position: absolute;
+    position: block;
     top: 0;
     z-index: 100;
     width: 100%;
@@ -13,7 +13,7 @@
     justify-content: flex-end;
 }
 .list{
-    list-style: none;
+    
     margin-left: 20px;
     margin-top: 23px;
 }
@@ -22,6 +22,10 @@
     margin-left: 35px;
     font-weight: bold;
     cursor: pointer;
+    color: #fff;
+}
+.list a{
+    text-decoration: none;
     color: #fff;
 }
 .logo img{

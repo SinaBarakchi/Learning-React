@@ -2,7 +2,7 @@
     width: 300px;
     margin: 30px 15px;
     box-shadow: 5px 5px 10px rgb(189, 189, 189);
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     background-color: #ececec;
 }
@@ -10,10 +10,11 @@
     cursor: pointer;
 }
 .imgcontainer{
-    background-color: #F8F8F8;
+    background-color: #FFFFFF;
     text-align: center;
     padding: 30px;
     margin-bottom: -5px;
+    height: 200px;
 }
 .cardinfo{
     position: relative;
@@ -23,9 +24,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 80px;
+    column-gap: 30px;
 }
 .cardinfo p{
+    margin-right: 10px;
     background-color: rgb(10, 145, 46);
     z-index: 200;
     font-size: 14px;
@@ -35,15 +37,16 @@
     float: right;
 }
 .cardinfo h3{
+    margin-left: 10px;
     color: rgb(54, 62, 66);
     font-weight: bold;
-    font-size: 18px;
+    font-size: inherit;
 }
 .imgcontainer img{
     max-width: 200px;
-    height: 300px;
+    height: 200px;
     object-position: center;
-    
+
 }
 .counter{
     padding: 22px 0;

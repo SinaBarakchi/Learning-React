@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import styles from './Card.module.css'
-// import styled from 'styled-components'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowDown, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons'
-// import {  } from '@fortawesome/free-solid-svg-icons';
+
 
 class Card extends Component {
     constructor(){
@@ -31,8 +31,9 @@ class Card extends Component {
                 <div className={styles.imgcontainer}><img src={pic} alt='phone_image'/></div>
                 <div className={styles.cardinfo}>
                     <h3>{module}</h3>
-                    <p>{prize}</p>
+                    <p>{prize}$</p>
                 </div>
+                <hr/>
                 <div className={styles.counter}>
                 <FontAwesomeIcon icon={faCircleArrowUp} className = {styles.uparrow} onClick={this.UpOne}/>
                 
